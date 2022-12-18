@@ -48,6 +48,16 @@ button {
     }
 }
 
+@keyframes ani02 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+}
+
 .section-title {
     flex: 0 0 100%;
     max-width: 100%;
@@ -371,7 +381,7 @@ button {
     border: 2px solid #FF9800;
     right: 30px;
     bottom: 30px;
-    animation: ani01 4s linear infinite;
+    animation: ani02 4s linear infinite;
 }
 
 .about-section .about-img .img-box img {
