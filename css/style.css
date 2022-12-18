@@ -366,8 +366,8 @@ button {
 
 .about-section .about-img .img-box .shape-02 {
     position: absolute;
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
     border: 2px solid #FF9800;
     right: 30px;
     bottom: 30px;
